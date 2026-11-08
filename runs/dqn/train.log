@@ -1,0 +1,28 @@
+21:16:24 INFO validation set (80 circuits): SABRE 19.77, greedy 24.93 mean SWAPs
+21:16:24 INFO untrained network: val 31.91
+21:16:29 INFO ep   250 | steps   3596 | ε 0.93 | val 19.43 (SABRE 19.77, greedy 24.93, ratio 0.982) | 5s
+21:16:39 INFO ep   500 | steps   7110 | ε 0.86 | val 18.40 (SABRE 19.77, greedy 24.93, ratio 0.930) | 15s
+21:16:46 INFO ep   750 | steps  10453 | ε 0.80 | val 18.00 (SABRE 19.77, greedy 24.93, ratio 0.910) | 22s
+21:16:52 INFO ep  1000 | steps  13784 | ε 0.73 | val 17.74 (SABRE 19.77, greedy 24.93, ratio 0.897) | 28s
+21:16:58 INFO ep  1250 | steps  17309 | ε 0.66 | val 18.10 (SABRE 19.77, greedy 24.93, ratio 0.915) | 35s
+21:17:05 INFO ep  1500 | steps  20650 | ε 0.59 | val 17.82 (SABRE 19.77, greedy 24.93, ratio 0.901) | 41s
+21:17:10 INFO ep  1750 | steps  23852 | ε 0.52 | val 17.64 (SABRE 19.77, greedy 24.93, ratio 0.892) | 47s
+21:17:17 INFO ep  2000 | steps  27139 | ε 0.46 | val 17.60 (SABRE 19.77, greedy 24.93, ratio 0.890) | 53s
+21:17:23 INFO ep  2250 | steps  30218 | ε 0.39 | val 17.79 (SABRE 19.77, greedy 24.93, ratio 0.899) | 59s
+21:17:32 INFO ep  2500 | steps  33343 | ε 0.32 | val 17.60 (SABRE 19.77, greedy 24.93, ratio 0.890) | 68s
+21:17:40 INFO ep  2750 | steps  36327 | ε 0.25 | val 17.59 (SABRE 19.77, greedy 24.93, ratio 0.889) | 76s
+21:17:46 INFO ep  3000 | steps  39408 | ε 0.18 | val 17.49 (SABRE 19.77, greedy 24.93, ratio 0.884) | 82s
+21:17:53 INFO ep  3250 | steps  42317 | ε 0.12 | val 17.56 (SABRE 19.77, greedy 24.93, ratio 0.888) | 90s
+21:17:58 INFO ep  3500 | steps  45102 | ε 0.05 | val 17.60 (SABRE 19.77, greedy 24.93, ratio 0.890) | 95s
+21:18:04 INFO ep  3750 | steps  47842 | ε 0.02 | val 17.71 (SABRE 19.77, greedy 24.93, ratio 0.896) | 100s
+21:18:09 INFO ep  4000 | steps  50839 | ε 0.02 | val 17.62 (SABRE 19.77, greedy 24.93, ratio 0.891) | 106s
+21:18:15 INFO ep  4250 | steps  53772 | ε 0.02 | val 17.64 (SABRE 19.77, greedy 24.93, ratio 0.892) | 111s
+21:18:20 INFO ep  4500 | steps  56508 | ε 0.02 | val 17.90 (SABRE 19.77, greedy 24.93, ratio 0.905) | 117s
+21:18:26 INFO ep  4750 | steps  59286 | ε 0.02 | val 17.70 (SABRE 19.77, greedy 24.93, ratio 0.895) | 122s
+21:18:31 INFO ep  5000 | steps  62136 | ε 0.02 | val 17.73 (SABRE 19.77, greedy 24.93, ratio 0.896) | 127s
+21:18:36 INFO ep  5250 | steps  64879 | ε 0.02 | val 17.59 (SABRE 19.77, greedy 24.93, ratio 0.889) | 132s
+21:18:41 INFO ep  5500 | steps  67647 | ε 0.02 | val 17.70 (SABRE 19.77, greedy 24.93, ratio 0.895) | 138s
+21:18:47 INFO ep  5750 | steps  70509 | ε 0.02 | val 17.81 (SABRE 19.77, greedy 24.93, ratio 0.901) | 143s
+21:18:52 INFO ep  6000 | steps  73181 | ε 0.02 | val 17.79 (SABRE 19.77, greedy 24.93, ratio 0.899) | 148s
+21:18:52 INFO saved runs/dqn/training_curve.png
+21:18:52 INFO done. best model: runs/dqn/best.pt, curve: runs/dqn/training_curve.png

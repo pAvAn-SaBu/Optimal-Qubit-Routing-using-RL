@@ -1,0 +1,40 @@
+| topology | seen_in_training | method | circuits | mean_swaps | swaps_vs_sabre | win/tie/loss | wilcoxon_p | mean_depth | valid_pct |
+|---|---|---|---|---|---|---|---|---|---|
+| line5 | True | SABRE | 30 | 20.23 |  |  |  | 71.7 | 100.0 |
+| line5 | True | greedy | 30 | 26.17 | 1.293 | 1/2/27 | 0.0 | 79.2 | 100.0 |
+| line5 | True | DQN | 30 | 18.37 | 0.908 | 22/5/3 | 0.0005 | 68.0 | 100.0 |
+| line7 | True | SABRE | 30 | 34.57 |  |  |  | 88.7 | 100.0 |
+| line7 | True | greedy | 30 | 45.33 | 1.311 | 0/1/29 | 0.0 | 101.9 | 100.0 |
+| line7 | True | DQN | 30 | 31.47 | 0.91 | 21/2/7 | 0.0017 | 85.87 | 100.0 |
+| ring6 | True | SABRE | 30 | 17.07 |  |  |  | 58.1 | 100.0 |
+| ring6 | True | greedy | 30 | 21.7 | 1.271 | 0/1/29 | 0.0 | 62.37 | 100.0 |
+| ring6 | True | DQN | 30 | 15.23 | 0.893 | 20/4/6 | 0.0003 | 53.47 | 100.0 |
+| ring8 | True | SABRE | 30 | 27.07 |  |  |  | 64.33 | 100.0 |
+| ring8 | True | greedy | 30 | 36.47 | 1.347 | 1/0/29 | 0.0 | 73.57 | 100.0 |
+| ring8 | True | DQN | 30 | 24.2 | 0.894 | 26/3/1 | 0.0 | 62.6 | 100.0 |
+| grid2x3 | True | SABRE | 30 | 13.13 |  |  |  | 53.37 | 100.0 |
+| grid2x3 | True | greedy | 30 | 18.4 | 1.401 | 0/4/26 | 0.0 | 63.47 | 100.0 |
+| grid2x3 | True | DQN | 30 | 12.07 | 0.919 | 18/5/7 | 0.0513 | 51.83 | 100.0 |
+| grid3x3 | True | SABRE | 30 | 18.93 |  |  |  | 57.9 | 100.0 |
+| grid3x3 | True | greedy | 30 | 26.97 | 1.424 | 0/1/29 | 0.0 | 65.97 | 100.0 |
+| grid3x3 | True | DQN | 30 | 16.0 | 0.845 | 26/2/2 | 0.0 | 51.43 | 100.0 |
+| star6 | True | SABRE | 30 | 11.97 |  |  |  | 65.9 | 100.0 |
+| star6 | True | greedy | 30 | 13.43 | 1.123 | 4/5/21 | 0.0002 | 70.3 | 100.0 |
+| star6 | True | DQN | 30 | 10.3 | 0.861 | 25/5/0 | 0.0 | 60.9 | 100.0 |
+| star8 | True | SABRE | 30 | 12.47 |  |  |  | 67.4 | 100.0 |
+| star8 | True | greedy | 30 | 14.4 | 1.155 | 4/2/24 | 0.0002 | 73.2 | 100.0 |
+| star8 | True | DQN | 30 | 10.8 | 0.866 | 24/6/0 | 0.0 | 62.4 | 100.0 |
+| line10 | False | SABRE | 30 | 52.73 |  |  |  | 99.33 | 100.0 |
+| line10 | False | greedy | 30 | 68.67 | 1.302 | 0/0/30 | 0.0 | 121.57 | 100.0 |
+| line10 | False | DQN | 30 | 47.03 | 0.892 | 24/2/4 | 0.0001 | 104.23 | 100.0 |
+| ring10 | False | SABRE | 30 | 37.6 |  |  |  | 68.93 | 100.0 |
+| ring10 | False | greedy | 30 | 50.83 | 1.352 | 0/0/30 | 0.0 | 80.93 | 100.0 |
+| ring10 | False | DQN | 30 | 34.03 | 0.905 | 23/4/3 | 0.0002 | 72.4 | 100.0 |
+| grid3x4 | False | SABRE | 30 | 25.53 |  |  |  | 58.03 | 100.0 |
+| grid3x4 | False | greedy | 30 | 35.33 | 1.384 | 0/1/29 | 0.0 | 71.73 | 100.0 |
+| grid3x4 | False | DQN | 30 | 22.7 | 0.889 | 21/4/5 | 0.0005 | 56.0 | 100.0 |
+| star10 | False | SABRE | 30 | 13.47 |  |  |  | 70.4 | 100.0 |
+| star10 | False | greedy | 30 | 15.4 | 1.144 | 6/1/23 | 0.0007 | 76.2 | 100.0 |
+| star10 | False | DQN | 30 | 11.03 | 0.819 | 27/3/0 | 0.0 | 63.1 | 100.0 |
+
+swaps_vs_sabre < 1 means fewer SWAPs than SABRE. win/tie/loss counts circuits vs SABRE. wilcoxon_p < 0.05 means the difference to SABRE is statistically significant.

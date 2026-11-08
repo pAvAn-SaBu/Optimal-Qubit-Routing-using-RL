@@ -1,0 +1,15 @@
+21:16:22 INFO validation set: SABRE 6.24, greedy 8.22 mean SWAPs
+21:16:27 INFO ep  25000 | ε 0.89 | val 6.99 (SABRE 6.24, greedy 8.22) | fallback 0.4% | 3732 states | 5s
+21:16:32 INFO ep  50000 | ε 0.77 | val 6.77 (SABRE 6.24, greedy 8.22) | fallback 0.4% | 3959 states | 10s
+21:16:37 INFO ep  75000 | ε 0.66 | val 6.83 (SABRE 6.24, greedy 8.22) | fallback 0.0% | 4013 states | 14s
+21:16:45 INFO ep 100000 | ε 0.55 | val 6.84 (SABRE 6.24, greedy 8.22) | fallback 0.2% | 4046 states | 22s
+21:16:57 INFO ep 125000 | ε 0.43 | val 6.60 (SABRE 6.24, greedy 8.22) | fallback 0.0% | 4065 states | 35s
+21:17:09 INFO ep 150000 | ε 0.32 | val 6.72 (SABRE 6.24, greedy 8.22) | fallback 0.0% | 4074 states | 47s
+21:17:22 INFO ep 175000 | ε 0.21 | val 6.69 (SABRE 6.24, greedy 8.22) | fallback 0.0% | 4077 states | 59s
+21:17:26 INFO ep 200000 | ε 0.10 | val 6.94 (SABRE 6.24, greedy 8.22) | fallback 0.0% | 4078 states | 64s
+21:17:31 INFO ep 225000 | ε 0.05 | val 6.97 (SABRE 6.24, greedy 8.22) | fallback 0.0% | 4079 states | 68s
+21:17:35 INFO ep 250000 | ε 0.05 | val 6.80 (SABRE 6.24, greedy 8.22) | fallback 0.0% | 4079 states | 73s
+21:17:42 INFO ep 275000 | ε 0.05 | val 6.76 (SABRE 6.24, greedy 8.22) | fallback 0.0% | 4080 states | 79s
+21:17:49 INFO ep 300000 | ε 0.05 | val 6.82 (SABRE 6.24, greedy 8.22) | fallback 0.0% | 4080 states | 87s
+21:17:50 INFO saved runs/tabular/training_curve.png
+21:17:50 INFO done. best model: runs/tabular/best.pkl, curve: runs/tabular/training_curve.png

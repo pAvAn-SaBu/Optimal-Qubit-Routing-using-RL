@@ -1,0 +1,38 @@
+{
+  "train_topologies": [
+    "line:5",
+    "line:7",
+    "ring:6",
+    "ring:8",
+    "grid:2x3",
+    "grid:3x3",
+    "star:6",
+    "star:8"
+  ],
+  "k": 4,
+  "episodes": 6000,
+  "min_gates": 10,
+  "max_gates": 40,
+  "hidden": 128,
+  "lr": 0.0005,
+  "gamma": 0.99,
+  "batch_size": 128,
+  "buffer_size": 50000,
+  "warmup_steps": 2000,
+  "target_sync": 1000,
+  "grad_clip": 10.0,
+  "eps_start": 1.0,
+  "eps_end": 0.02,
+  "eps_decay_frac": 0.6,
+  "val_every": 250,
+  "val_per_topology": 10,
+  "val_gates": 30,
+  "seed": 0,
+  "reward": {
+    "swap_cost": 1.0,
+    "gate_reward": 0.1,
+    "shaping_beta": 0.2,
+    "finish_bonus": 1.0,
+    "gamma": 0.99
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "headline": [
+    {
+      "method": "greedy",
+      "subset": "seen chips",
+      "circuits": 270,
+      "ratio_vs_sabre": 1.31,
+      "95% CI": "[1.285, 1.336]",
+      "swaps_saved_pct": -31.0,
+      "win/tie/loss": "10/10/250"
+    },
+    {
+      "method": "greedy",
+      "subset": "unseen chips",
+      "circuits": 120,
+      "ratio_vs_sabre": 1.312,
+      "95% CI": "[1.275, 1.348]",
+      "swaps_saved_pct": -31.2,
+      "win/tie/loss": "7/4/109"
+    },
+    {
+      "method": "greedy",
+      "subset": "all chips",
+      "circuits": 390,
+      "ratio_vs_sabre": 1.31,
+      "95% CI": "[1.287, 1.333]",
+      "swaps_saved_pct": -31.0,
+      "win/tie/loss": "17/14/359"
+    },
+    {
+      "method": "DQN",
+      "subset": "seen chips",
+      "circuits": 270,
+      "ratio_vs_sabre": 0.891,
+      "95% CI": "[0.877, 0.906]",
+      "swaps_saved_pct": 10.9,
+      "win/tie/loss": "209/30/31"
+    },
+    {
+      "method": "DQN",
+      "subset": "unseen chips",
+      "circuits": 120,
+      "ratio_vs_sabre": 0.885,
+      "95% CI": "[0.865, 0.907]",
+      "swaps_saved_pct": 11.5,
+      "win/tie/loss": "102/10/8"
+    },
+    {
+      "method": "DQN",
+      "subset": "all chips",
+      "circuits": 390,
+      "ratio_vs_sabre": 0.888,
+      "95% CI": "[0.877, 0.901]",
+      "swaps_saved_pct": 11.2,
+      "win/tie/loss": "311/40/39"
+    },
+    {
+      "method": "tabular-Q",
+      "subset": "seen chips",
+      "circuits": 30,
+      "ratio_vs_sabre": 0.977,
+      "95% CI": "[0.902, 1.061]",
+      "swaps_saved_pct": 2.3,
+      "win/tie/loss": "18/3/9"
+    },
+    {
+      "method": "tabular-Q",
+      "subset": "all chips",
+      "circuits": 30,
+      "ratio_vs_sabre": 0.977,
+      "95% CI": "[0.903, 1.059]",
+      "swaps_saved_pct": 2.3,
+      "win/tie/loss": "18/3/9"
+    }
+  ],
+  "training_dqn": {
+    "episodes": 6000,
+    "best_episode": 3000,
+    "best_val_swaps": 17.49,
+    "best_ratio_vs_sabre": 0.884,
+    "final_val_swaps": 17.79,
+    "final_ratio_vs_sabre": 0.899,
+    "sabre_val_swaps": 19.77
+  },
+  "training_tabular": {
+    "episodes": 300000,
+    "best_episode": 125000,
+    "best_val_swaps": 6.6,
+    "best_ratio_vs_sabre": 1.058,
+    "final_val_swaps": 6.82,
+    "final_ratio_vs_sabre": 1.093,
+    "sabre_val_swaps": 6.24
+  }
+}

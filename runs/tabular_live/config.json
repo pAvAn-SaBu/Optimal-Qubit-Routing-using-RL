@@ -1,0 +1,17 @@
+{
+  "topology": "line:4",
+  "k": 3,
+  "lookahead": 1,
+  "episodes": 500000,
+  "min_gates": 6,
+  "max_gates": 14,
+  "alpha": 0.2,
+  "alpha_end": 0.01,
+  "gamma": 0.95,
+  "eps_start": 1.0,
+  "eps_end": 0.05,
+  "eps_decay_frac": 0.7,
+  "val_every": 25000,
+  "val_circuits": 100,
+  "seed": 0
+}
